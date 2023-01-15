@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jstore e-commerce template</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/6946f528ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="/assets/js/index.js"></script>
+</head>
+<body class="">
+    <header>
+        <div class="banner-promo-container tc">
+        <div class="container">
+            <div class="banner-promo py-15">
+             GET UP to 40% New-season Style 
+             <span class="men">Men</span>
+             <span class="women">Women</span>
+             *Limited time only
+
+             
+        </div>
+    </div>
+        </div>
+        <div class="nav-top-container ">
+            <div class="container">
+                <div class="nav-top flex jcsb gap-10 py-15">
+                    <div class="nav-message ">
+                        free return.Standard shipping Oder *99+
+                    </div>
+                    <div class="nav-items">
+                        <ul class="flex  gap-25">
+                            <li><a href="#">My account</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">My Wishlist</a></li>
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Log In</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex gap-10">
+                        <div class="nav-country">
+                            <select name="country" id="country">
+                                <option value="france">FRA</option>
+                                <option value="usa">USA</option>
+                                <option value="rus">RUS</option>
+                            </select>
+                        </div>
+                        <div class="nav-currency">
+                            <select name="currency" id="currency">
+                                <option value="EUR">EUR</option>
+                                <option value="EUR">USD</option>
+                                <option value="EUR">OXF</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-social-item flex gap-20 ">
+                       
+                        <div class="social-icon-item">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="social-icon-item">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="social-icon-item">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+           
+           
+
+        </div>
+        <div class="website-details-container">
+            <div class="container">
+                <div class="website-details flex aic gap-10 ">
+                    <i class="fa-solid fa-bars none"></i>
+                    <div class="website-logo logo  ">
+                        <h2 class="">
+                            <a href="#">Jstore</a>
+                        </h2>
+                    </div>
+                    <div class="website-search-bar flex flex-1 ">
+                        <input type="search" name="product-filter" class="flex-1 px-20" id="product_filter"
+                        placeholder="search....">
+                        <select name="categories" id="categories">
+                            <option value="">All Categories</option>
+                            <option value="">Robes</option>
+                            <option value="">Culottes</option>
+                            <option value="">T-Shirt</option>
+                            <option value="">Chemises</option>
+                        </select>
+                        <div class="search-icon flex aic jcc ">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="website-call-us flex aic gap-10">
+                        <div class="call-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="call-message">
+                            <h3>Call Us</h3>
+                            <a href="tel:+212635906793">+212635906793</a>
+                        </div>
+
+                    </div>
+                    <div class="website-icon flex gap-10">
+                        <div class="website-icon-item">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="website-icon-item">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="website-icon-item">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="website-icon-item">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <div class="nav-container flex jcsb  ">
+                <div class="nav-left">
+
+                    <ul class="flex gap-10">
+                    <li><a href="" class="active">HOME</a></li>
+                    <li class="relative"><a href="">CATEGORIES 
+                       <i class="fa-solid fa-chevron-down"></i> 
+                            </a>
+                            <div class="mega-sub-nav absolute box flex">
+                                <div class="mega-item">
+                                    <h3>Variation 1</h3>
+                                    <ul>
+                                        <li><a href="#">Fullwidth Banner</a></li>
+                                        <li><a href="#">Boxed Slider Banner</a></li>
+                                        <li><a href="#">FBoxed Image Banner</a></li>
+                                        <li><a href="#">Left Sidebar</a></li>
+                                        <li><a href="#">Right Sidebar</a></li>
+                                        <li><a href="#">Off Canvas Filter</a></li>
+                                        <li><a href="#">Horizontal Filter1</a></li>
+                                        <li><a href="#">Horizontal Filter2</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-item">
+                                    <h3>Variation 2</h3>
+                                    <ul>
+                                        <li><a href="#">Fullwidth Banner</a></li>
+                                        <li><a href="#">Boxed Slider Banner</a></li>
+                                        <li><a href="#">FBoxed Image Banner</a></li>
+                                        <li><a href="#">Left Sidebar</a></li>
+                                        <li><a href="#">Right Sidebar</a></li>
+                                        <li><a href="#">Off Canvas Filter</a></li>
+                                        <li><a href="#">Horizontal Filter1</a></li>
+                                        <li><a href="#">Horizontal Filter2</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-item relative">
+                                    <img src="assets/images/img.png" alt="" srcset="">
+                                    <div class="mega-item-content absolute">
+                                        <span>OFF</span>
+                                        <div>
+                                            <h4>UP TO</h4>
+                                            <h3>50%</h3>
+                                        </div>
+                                    </div>
+                                    <button class="btn absolute">SHOP NOW</button>
+                                </div>
+
+                            </div>
+                </li>
+                    <li class="relative"><a href="">PRODUCTS
+                        <i class="fa-solid fa-chevron-down"></i> 
+                    </a>
+                    <div class="mega-sub-nav absolute box flex">
+                        <div class="mega-item">
+                            <h3>Variation 1</h3>
+                            <ul>
+                                <li><a href="#">Fullwidth Banner</a></li>
+                                <li><a href="#">Boxed Slider Banner</a></li>
+                                <li><a href="#">FBoxed Image Banner</a></li>
+                                <li><a href="#">Left Sidebar</a></li>
+                                <li><a href="#">Right Sidebar</a></li>
+                                <li><a href="#">Off Canvas Filter</a></li>
+                                <li><a href="#">Horizontal Filter1</a></li>
+                                <li><a href="#">Horizontal Filter2</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3>Variation 2</h3>
+                            <ul>
+                                <li><a href="#">Fullwidth Banner</a></li>
+                                <li><a href="#">Boxed Slider Banner</a></li>
+                                <li><a href="#">FBoxed Image Banner</a></li>
+                                <li><a href="#">Left Sidebar</a></li>
+                                <li><a href="#">Right Sidebar</a></li>
+                                <li><a href="#">Off Canvas Filter</a></li>
+                                <li><a href="#">Horizontal Filter1</a></li>
+                                <li><a href="#">Horizontal Filter2</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item relative">
+                            <img src="assets/images/img.png" alt="" srcset="">
+                            <div class="mega-item-content absolute">
+                                <span>OFF</span>
+                                <div>
+                                    <h4>UP TO</h4>
+                                    <h3>50%</h3>
+                                </div>
+                            </div>
+                            <button class="btn absolute">SHOP NOW</button>
+                        </div>
+
+                    </div>
+                </li>
+                    <li class="relative"><a href="">PAGES
+                        <i class="fa-solid fa-chevron-down"></i> </a>
+                        <ul class="sub-nav absolute box none ">
+                            <li><a href="">Wishlist</a></li>
+                            <li><a href="">Shopping cart</a></li>
+                            <li><a href="">Checkout</a></li>
+                            <li><a href="">DashBoard</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li class="relative"><a href="">Blog 
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                        <ul class="sub-nav absolute box none ">
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Blog Post</a></li>
+                        </ul></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">Forgot Password</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">ELEMENTS</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+
+
+                    
+                </div>
+                <div class="nav-right flex">
+                    <ul class="flex gap-10">
+                        <li><a href="">special offer!</a></li>
+                        <li><a href="">Buy PORTO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+    </nav>
+    <section>
+        <div class="slider relative">
+            <div class="slider-image">
+
+            </div>
+            <div class="slider-content absolute">
+                <h4>Find the Boundaries. Push Through!</h4>
+                <h2>Summer Sale</h2>
+                <h3>70% OFF</h3>
+                <div class="slider-actions flex gap-25 ">
+                    <span> STARTING AT</span>
+                        <div class="price">
+                            <span>
+                                199.
+                            </span>
+                            <sup>99</sup>
+                        </div>
+                        <div class="shop-now btn">
+                            Shop Noww
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="slider-icon prev absolute">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="slider-icon next absolute">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div> 
+    </section>
+
+    <section class="promo py-15">
+        <div class="container ">
+            <div class="promo-container flex gap-10 jcc  py-20">
+                <div class="promo-item">
+                    <div class="promo-header flex aic jcc gap-10">
+                        <div class="promo-icon tc">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="promo-details tc">
+                                <h3>FREE SHIPPING & RETURN</h3>
+                                <p>Free shipping on all orders over 99MAD</p>
+                            </div>
+                    </div>
+                    <div class="promo-image">
+                        <img src="assets/images/330x330.jpg" alt="" srcset="">
+                    </div>
+
+                </div>
+                <div class="promo-item ">
+                    <div class="promo-header flex aic ">
+                        <div class="promo-icon tc">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="promo-details tc">
+                                <h3>FREE SHIPPING & RETURN</h3>
+                                <p>Free shipping on all orders over 99MAD</p>
+                            </div>
+                    </div>
+                    <div class="promo-image">
+                        <img src="assets/images/330x330.2.jpg" alt="" srcset="">
+                    </div>
+
+                </div>
+                <div class="promo-item ">
+                    <div class="promo-header flex aic ">
+                        <div class="promo-icon tc">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="promo-details tc">
+                                <h3>FREE SHIPPING & RETURN</h3>
+                                <p>Free shipping on all orders over 99MAD</p>
+                            </div>
+                    </div>
+                    <div class="promo-image">
+                        <img src="assets/images/330x330.3.jpg" alt="" srcset="">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="featured-products-container  py-30  ">
+        <div class="container">
+            <div class="featured-products    ">
+                <div class="section-title ">
+                    <h2>Featured Products</h2>
+                </div>
+                <div class="products-list   flex gap-10 jcsb jcc ">
+                    <div class="product-item box">
+                        <div class="product-image relative">
+                            <img src="assets/images/img.png" alt="">
+                            <span class="badge hot absolute">hot</span>
+                            <span class="badge sold absolute">-20%</span>
+
+                        </div>
+                        <div class="product-details  flex" >
+                            <div class="product-category">Pantalons</div>
+                            <div class="product-name"> 
+                                <h3>Pantalon supreme</h3>
+                            </div>
+                            <div class="product-reviews py-5">
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star"></i>(758)
+                            </div>
+                            <div class="product-price flex jcc py-5 gap-10">
+                                <del>
+                                    <h4>89.99MAD</h4>
+                                </del>
+                                <h4>29.99MAD</h4>
+                            </div>
+                            <div class="product-options">
+                                <button class="btn">Select Options</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-item box">
+                        <div class="product-image relative">
+                            <img src="assets/images/img.png" alt="">
+                            <span class="badge hot absolute">hot</span>
+                            <span class="badge sold absolute">-20%</span>
+
+                        </div>
+                        <div class="product-details  flex" >
+                            <div class="product-category">Pantalons</div>
+                            <div class="product-name"> 
+                                <h3>Pantalon supreme</h3>
+                            </div>
+                            <div class="product-reviews py-5">
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star"></i>(758)
+                            </div>
+                            <div class="product-price flex jcc py-5 gap-10">
+                                <del>
+                                    <h4>89.99MAD</h4>
+                                </del>
+                                <h4>29.99MAD</h4>
+                            </div>
+                            <div class="product-options">
+                                <button class="btn">Select Options</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-item box">
+                        <div class="product-image relative">
+                            <img src="assets/images/img.png" alt="">
+                            <span class="badge hot absolute">hot</span>
+                            <span class="badge sold absolute">-20%</span>
+
+                        </div>
+                        <div class="product-details  flex" >
+                            <div class="product-category">Pantalons</div>
+                            <div class="product-name"> 
+                                <h3>Pantalon supreme</h3>
+                            </div>
+                            <div class="product-reviews py-5">
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star"></i>(758)
+                            </div>
+                            <div class="product-price flex jcc py-5 gap-10">
+                                <del>
+                                    <h4>89.99MAD</h4>
+                                </del>
+                                <h4>29.99MAD</h4>
+                            </div>
+                            <div class="product-options">
+                                <button class="btn">Select Options</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-item box">
+                        <div class="product-image relative">
+                            <img src="assets/images/img.png" alt="">
+                            <span class="badge hot absolute">hot</span>
+                            <span class="badge sold absolute">-20%</span>
+
+                        </div>
+                        <div class="product-details  flex" >
+                            <div class="product-category">Pantalons</div>
+                            <div class="product-name"> 
+                                <h3>Pantalon supreme</h3>
+                            </div>
+                            <div class="product-reviews py-5">
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star"></i>(758)
+                            </div>
+                            <div class="product-price flex jcc py-5 gap-10">
+                                <del>
+                                    <h4>89.99MAD</h4>
+                                </del>
+                                <h4>29.99MAD</h4>
+                            </div>
+                            <div class="product-options">
+                                <button class="btn">Select Options</button>
+                            </div>
+
+                        </div>
+                    </div>
+                  
+                  
+            </div>
+            
+
+        </div>
+        
+    </div>
+       
+    </section>
+
+
+    <div class="affiche ">
+        <div class="affiche-overlay"></div>
+            <div class="affiche-product-item b">
+                <h2>Momo</h2>
+            </div>
+    
+    </div>
+
+    
+   
+
+    <section class="new-arrivals-products-container  py-30  ">
+        <div class="container">
+            <div class="new-arrivals-products ">
+                <div class="section-title ">
+                    <h2>News Arrivals</h2>
+                </div>
+                <div class="products-list flex gap-10 jcsb">
+                    <div class="product-item box">
+                        <div class="product-image relative">
+                            <img src="assets/images/img1.png" alt="">
+                            <span class="badge hot absolute">hot</span>
+                            <span class="badge sold absolute">-20%</span>
+
+                        </div>
+                        <div class="product-details  flex" >
+                            <div class="product-category">Pantalons</div>
+                            <div class="product-name"> 
+                                <h3>Pantalon supreme</h3>
+                            </div>
+                            <div class="product-reviews py-5">
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star"></i>(758)
+                            </div>
+                            <div class="product-price flex jcc py-5 gap-10">
+                                <del>
+                                    <h4>89.99MAD</h4>
+                                </del>
+                                <h4>29.99MAD</h4>
+                            </div>
+                            <div class="product-options">
+                                <button class="btn">Select Options</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-item box">
+                        <div class="product-image relative">
+                            <img src="assets/images/img1.png" alt="">
+                            <span class="badge hot absolute">hot</span>
+                            <span class="badge sold absolute">-20%</span>
+
+                        </div>
+                        <div class="product-details  flex" >
+                            <div class="product-category">Pantalons</div>
+                            <div class="product-name"> 
+                                <h3>Pantalon supreme</h3>
+                            </div>
+                            <div class="product-reviews py-5">
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star"></i>(758)
+                            </div>
+                            <div class="product-price flex jcc py-5 gap-10">
+                                <del>
+                                    <h4>89.99MAD</h4>
+                                </del>
+                                <h4>29.99MAD</h4>
+                            </div>
+                            <div class="product-options">
+                                <button class="btn">Select Options</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-item box">
+                        <div class="product-image relative">
+                            <img src="assets/images/img1.png" alt="">
+                            <span class="badge hot absolute">hot</span>
+                            <span class="badge sold absolute">-20%</span>
+
+                        </div>
+                        <div class="product-details  flex" >
+                            <div class="product-category">Pantalons</div>
+                            <div class="product-name"> 
+                                <h3>Pantalon supreme</h3>
+                            </div>
+                            <div class="product-reviews py-5">
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star"></i>(758)
+                            </div>
+                            <div class="product-price flex jcc py-5 gap-10">
+                                <del>
+                                    <h4>89.99MAD</h4>
+                                </del>
+                                <h4>29.99MAD</h4>
+                            </div>
+                            <div class="product-options">
+                                <button class="btn">Select Options</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-item box">
+                        <div class="product-image relative">
+                            <img src="assets/images/img1.png" alt="">
+                            <span class="badge hot absolute">hot</span>
+                            <span class="badge sold absolute">-20%</span>
+
+                        </div>
+                        <div class="product-details  flex" >
+                            <div class="product-category">Pantalons</div>
+                            <div class="product-name"> 
+                                <h3>Pantalon supreme</h3>
+                            </div>
+                            <div class="product-reviews py-5">
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star selected"></i>
+                                <i class="fa-solid fa-star"></i>(758)
+                            </div>
+                            <div class="product-price flex jcc py-5 gap-10">
+                                <del>
+                                    <h4>89.99MAD</h4>
+                                </del>
+                                <h4>29.99MAD</h4>
+                            </div>
+                            <div class="product-options">
+                                <button class="btn">Select Options</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <div class="banner-big-sale mb-50">
+        <div class="container flex jcsb aic">
+                <div class="banner-big-sale-btn btn">
+                    Big Sale
+                </div>
+                <div class="banner-big-sale-content ">
+                    ALL NEW FASHION BRANDS ITEMS UP TO 70% OFF
+                </div>
+                <div class="banner-big-sale-action btn ">
+                View Sale
+                </div>
+        </div>
+    </div>
+
+    <div class="browse-our-categories-container">
+        <div class="container">
+            <div class="browse-our-categories">
+                <div class="section-title">
+                    <h2>Browse Our Category</h2>
+                </div>
+                <div class="categories-list flex jcsb gap-10 ">
+                    <div class="category-item box">
+                        <div class="category-image">
+                            <img src="assets/images/img1.png" alt="">
+                        </div>
+                        <div class="category-details">
+                            <div class="category-name">
+                                    Robes
+                            </div>
+                            <div class="category-stock">
+                                20 In Stock
+                        </div>
+                </div>
+                    </div>
+                    <div class="category-item box">
+                        <div class="category-image">
+                            <img src="assets/images/img1.png" alt="">
+                        </div>
+                        <div class="category-details">
+                            <div class="category-name">
+                                    Robes
+                            </div>
+                            <div class="category-stock">
+                                20 In Stock
+                        </div>
+                </div>
+                    </div>
+                    <div class="category-item box">
+                        <div class="category-image">
+                            <img src="assets/images/img1.png" alt="">
+                        </div>
+                        <div class="category-details">
+                            <div class="category-name">
+                                    Robes
+                            </div>
+                            <div class="category-stock">
+                                20 In Stock
+                        </div>
+                </div>
+                    </div>
+                    <div class="category-item box">
+                        <div class="category-image">
+                            <img src="assets/images/img1.png" alt="">
+                        </div>
+                        <div class="category-details">
+                            <div class="category-name">
+                                    Robes
+                            </div>
+                            <div class="category-stock">
+                                20 In Stock
+                        </div>
+                </div>
+                    </div>
+                </div>
+               
+                
+            </div>
+        </div>
+    </div>
+    
+
+  <footer class="py-30">
+    <div class="container">
+        <div class="footer-content flex jcsb gap-10 wrap py-30">
+            <div class="footer-list">
+                <h2>Contact Infos</h2>
+                <div class="footer-item">
+                    <h4>Adresse:</h4>
+                    <p>Mohammedia , Maroc</p>
+                </div>
+                <div class="footer-item">
+                    <h4>Phone:</h4>
+                    <p>+212 635906793</p>
+                </div>
+                <div class="footer-item">
+                    <h4>Email:</h4>
+                    <p>momojr@gmail.com</p>
+                </div>
+                <div class="footer-item">
+                    <h4>Working Days/Hours:</h4>
+                    <p>Mon-Sun/9:00 AM - 8:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-list">
+                <h2>CUSTOMERS SERVICES</h2>
+                 <ul>
+                    <li class="customer-service-item"><a href="#">Help & FAQs</a></li>
+                    <li class="customer-service-item"><a href="#">Order Tracking</a></li>
+                    <li class="customer-service-item"><a href="#">Shipping & Delivery</a></li>
+                    <li class="customer-service-item"><a href="#">Orders History</a></li>
+                    <li class="customer-service-item"><a href="#">Advanced Search</a></li>
+                    <li class="customer-service-item"><a href="#">My Account</a></li>
+                    <li class="customer-service-item"><a href="#">Carrees </a></li>
+                    <li class="customer-service-item"><a href="#">About Us</a></li>
+                    <li class="customer-service-item"><a href="#">Corporate Sales</a></li>
+                    <li class="customer-service-item"><a href="#">Privacy</a></li>
+                 </ul>
+            </div>
+            <div class="footer-list">
+                <h2>POPULAR TAGS</h2>
+                <div class="footer-tags">
+                    <div class="tags">bags</div>
+                    <div class="tags">black</div>
+                    <div class="tags">blue</div>
+                    <div class="tags">clothes</div>
+                    <div class="tags">Fashion</div>
+                    <div class="tags">Shirt</div>
+                    <div class="tags">Shoes</div>
+                    <div class="tags">Skirt</div>
+                </div>
+            </div>
+            <div class="footer-list">
+                <h2>SUBSCRIBE NEWSLETTER</h2>
+                 <div class="footer-subscribe">
+                    <p>
+                        Get all the laatest information on events, sales and offers . Sign up for newsletter:
+                    </p>
+                    <div class="footer-input">
+                        <input type="email" name="email" id="id" placeholder="Email Adress">
+                    </div>
+                    <button class="btn">subscribe</button>
+                 </div>
+                 
+                </div>
+            </div>
+                <div class="footer-bottom flex jcsb py-30 wrap gap-10">
+                    <div class="footer-bottom-left">
+                        @ ecommerce. 2021. All Rights Reserved
+                    </div>
+                </div>
+        </div>
+      
+
+  </footer>
+
+     
+   <!-- <div class="pages">
+
+    </div> -->
+</body>
+</html>
